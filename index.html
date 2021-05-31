@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasty Treats | Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header class="hero-image">
+        <nav class="navbar navbar-expand-lg mx-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="./Images/logo/logo.png" alt="multiple decorated cupcakes" />
+                </a>
+                <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Menu</a>
+                        <a class="nav-link" href="#">Online Order</a>
+                        <a class="nav-link" href="#">Gallery</a>
+                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#">Custom Order</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="hero-text">
+            <h1 class="display-1">Tasty Treats</h1>
+            <p class="display-6">Serving the best treats in Baltimore</p>
+            <button type="button" aria-label="View gallery" class="btn btn-outline-primary btn-lg btn-orange">
+                View Gallery
+            </button>
+        </div>
+    </header>
+
+    <!-- Welcome -->
+    <section id="welcome">
+        <div class="container">
+            <h2 class="header-text sm-text text-uppercase pb-4">Welcome to Sweet Treats bakery</h2>
+            <hr />
+            <p class="welcome-text pt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia rerum,
+                voluptatem omnis facere repudiandae accusamus minus commodi magni
+                voluptates saepe quia odio, excepturi autem ea itaque ex harum amet
+                culpa.
+            </p>
+        </div>
+    </section>
+
+    <!-- Showcase -->
+    <section id="showcase">
+        <h2 class="visually-hidden">Bakery image showcase</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img class="img-fluid showcase-image" src="./Images/food/baguette.jpg" alt="" />
+                </div>
+                <div class="col">
+                    <img class="img-fluid showcase-image" src="./Images/food/variety.jpg" alt="" />
+                </div>
+                <div class="col">
+                    <img class="img-fluid showcase-image" src="./Images/food/chocolate-cake.jpg" alt="" />
+                </div>
+            </div>
+
+            <p class="pt-3">
+                Suspendisse fringilla elementum arcu, non vestibulum lacus sagittis vel. Aenean ut justo orci. Curabitur
+                eget ligula nunc. Aenean vitae venenatis nunc. Mauris aliquam ipsum nulla, quis bibendum erat pharetra
+                ut. In hac habitasse platea dictumst. Aenean vitae vehicula purus. Suspendisse fringilla elementum arcu,
+                non vestibulum lacus sagittis vel. Aenean ut justo orci. Curabitur eget ligula nunc. Aenean vitae
+                venenatis nunc. Mauris aliquam ipsum nulla, quis bibendum erat pharetra ut. In hac habitasse platea
+                dictumst. Aenean vitae vehicula purus.
+            </p>
+        </div>
+    </section>
+
+    <!-- Custom Order -->
+    <section id="custom-order">
+        <h2 class="visually-hidden">Custom order section</h2>
+        <div class="d-flex justify-content-center">
+            <p class="my-auto">Looking for something special or have a custom order?</p>
+            <button type="button" aria-label="Custom Order" class="ms-4 btn btn-outline-light">
+                Custom Order
+            </button>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <div class="container">
+            <div class="row">
+                <!-- left side -->
+                <div class="col-6">
+                    <h2 class="header-text text-uppercase mb-4 sm-text">Menu & Specials</h2>
+                    <hr class="header-hr" />
+                    <p class="my-4 lg-text">Mauris id lacus massa. Sed tincidunt quam in efficitur feugiat.</p>
+                    <p class="my-4">
+                        Donec laoreet orci non auctor elementum. In quam diam, vulputate
+                        eget venenatis quis, sollicitudin non mi. Aliquam dignissim lectus
+                        non ipsum gravida, vitae aliquet purus condimentum. Proin feugiat
+                        enim nisl, at molestie mi venenatis non. Aliquam tempus at nisl quis
+                        faucibus.
+                    </p>
+                    <button type="button" aria-label="View menu" class="btn btn-outline-primary btn-orange mt-4">
+                        View Menu
+                    </button>
+                </div>
+                <!-- right side -->
+                <div class="col-6">
+                    <img class="menu-image float-end" src="./Images/food/menu.jpg" alt="menu" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="page-footer" class="sm-text">
+        <div class="container text-center text-md-left">
+            <div class="row">
+                <div class="col-md-2 mx-auto">
+                    <a href="#"><img class="logo" src="./Images/logo/logo.png" alt="Sweet Treats logo" /></a>
+                </div>
+                <div class="col-md-2 mx-auto">
+                    <h6 class="font-weight-bold text-uppercase mt-3 mb-4">Menu</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Cakes</a></li>
+                        <li><a href="#">Cupcakes</a></li>
+                        <li><a href="#">Bread</a></li>
+                        <li><a href="#">Pastries</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mx-auto">
+                    <h6 class="font-weight-bold text-uppercase mt-3 mb-4">Orders</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Online Order</a></li>
+                        <li><a href="#">Custom Order</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mx-auto">
+                    <h6 class="font-weight-bold text-uppercase mt-3 mb-4">
+                        Contact us
+                    </h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mx-auto">
+                    <p class="text-uppercase mt-3 mb-4 ps-4 text-start">
+                        11111 Address St<br />City, St, Zip
+                    </p>
+                    <p class="text-uppercase mt-3 mb-4 ps-4 text-start">555-555-5555</p>
+                </div>
+                <div class="col-md-2 mx-auto">
+                    <p class="mt-3 mb-4 ps-4 text-start">
+                        Monday - Thursday:<br />7:30 AM - 7:00 PM
+                    </p>
+                    <p class="mt-3 mb-4 ps-4 text-start">
+                        Friday - Saturday:<br />7:30 AM - 8:00 PM
+                    </p>
+                    <p class="mt-3 mb-4 ps-4 text-start">
+                        Monday - Thursday:<br />8:00 AM - 5:30 PM
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

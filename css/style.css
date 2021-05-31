@@ -1,0 +1,144 @@
+body, html {
+    height: 100%;
+    font-size: 20px;
+    background: #fafafa;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../Images/food/cupcakes.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FF3A19;
+}
+
+.btn-orange {
+    color: #FF3A19;
+    border-color: #FF3A19;
+    background: rgba(255, 58, 25, 0.2);
+    text-transform: uppercase;
+}
+
+.btn-orange:hover {
+    background-color: #FF3A19;
+    border-color: #FF3A19;
+}
+
+.btn-outline-light {
+    text-transform: uppercase;
+}
+
+.btn-outline-light:hover {
+    color: #FF3A19;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+}
+
+.nav-link {
+    color: black;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.active {
+    color: #FF3A19;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #FF3A19;
+}
+
+.navbar-toggler-icon {
+    color: black;
+}
+
+#welcome {
+    text-align: center;
+    margin: 100px 0 20px;
+}
+
+#welcome p {
+    width: 70%;
+    margin: auto;
+}
+
+.welcome-text {
+    font-size: 24px;
+}
+
+hr {
+    width: 10%;
+    margin: auto;
+}
+
+#showcase {
+    margin-bottom: 100px;
+}
+
+.showcase-image {
+    height: 500px;
+    width: 550px;
+    overflow: hidden;
+}
+
+#custom-order {
+    background: #FF3A19;
+    color: white;
+    padding: 60px 0;
+    margin-bottom: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#menu {
+    margin-bottom: 100px;
+}
+
+.menu-image {
+    height: 500px;
+    width: 550px;
+}
+
+.header-hr {
+    margin: 0;
+}
+
+#page-footer {
+    background: #FFDF71;
+    text-decoration: none;
+}
+
+#page-footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.sm-text {
+    font-size: 17px;
+}
+
+.lg-text {
+    font-size: 28px;
+}
+
+.header-text {
+    color: #606361;
+}
+
+.showcase-image:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+}
